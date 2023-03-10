@@ -1,30 +1,29 @@
-## ND9991 - C2- Infrastructure as Code - Supporting Material and Starter Code
-This folder provides the supporting material and starter code for the "ND9991 - C2- Infrastructure as Code" course. This folder contains the following folders:
-1. project_starter - It contains the starter code.
-2. supporting_material - It contains the essential files (.yml, .json, .bat, .sh, and .jpeg) that were referred in the different lessons of this course.
+### Project Title - Deploy a high-availability web app using CloudFormation
+This folder contains the CloudFormation codes for the "ND9991 - C2- Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. The folder contains the following files:
 
-In addition to the current repo, there is one more repository, [nd9991-c2-Infrastructure-as-Code-v1-Exercises_Solution](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1-Exercises_Solution) that contains the solution to the exercises and video demos.  
+#### [Web App Architecture Diagram for Udagram on AWS](Web-App-Architecture-Diagram-for-Udagram-on-AWS.jpeg)
+Infrastructure diagram
 
-### Dependencies
-##### 1. AWS account
-You would require to have an AWS account to be able to build cloud infrastructure.
+#### [tpc-udagram-network.yml](tpc-udagram-network.yml)
+Deploys the network infrastructure.
 
-##### 2. VS code editor
-An editor would be helpful to visualize the image as well as code. Download the VS Code editor [here](https://code.visualstudio.com/download).
+#### [tpc-udagram-network-params.json](tpc-udagram-network-params.json)
+Parameters for the network infrastructure
 
-##### 3. An account on www.lucidchart.com
-A free user-account on [www.lucidchart.com](www.lucidchart.com) is required to be able to draw the web app architecture diagrams for AWS.
+In YAML code, the `${EnvironmentName}` would be substituted with `UdacityUdagramProject` accordingly.
+
+#### [tpc-udagram-server.yml](tpc-udagram-server.yml)
+Deploys the web servers
+
+#### [tpc-udagram-server-params.json](tpc-udagram-server-params.json)
+Parameters for the web servers
+
+#### [create.sh](create.sh)
+Helper script to create the CloudFormation stack
+
+#### [update.sh](update.sh)
+Helper script to update the CloudFormation stack
 
 
-### How to run the supporting material?
-You can run the supporting material in two easy steps:
-```bash
-# Ensure that the AWS CLI is configured before runniing the command below
-# Create the network infrastructure
-# Check the region in the create.sh file
-./create.sh myFirstStack network.yml network-parameters.json
-# Create servers
-# Change the AMI ID and key-pair name in the servers.yml
-# Check the region in the update.sh file
-./update.sh mySecStack servers.yml server-parameters.json
-```
+#### [delete.sh](delete.sh)
+Helper script to delete the CloudFormation stack
