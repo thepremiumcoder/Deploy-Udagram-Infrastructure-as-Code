@@ -1,4 +1,6 @@
 ### Project Title - Deploy a high-availability web app using CloudFormation
+This project demonstrates the deployment of web servers for a highly available web app using CloudFormation (infrastructure as Code). Writing the code that creates and deploys the infrastructure and application for an Instagram-like app from the ground up. This includes deploying the networking components, followed by servers, security roles and software.  I also design a architecture diagram  as a visual aid to understand the CloudFormation script.
+
 This folder contains the CloudFormation codes for the "ND9991 - C2- Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. The folder contains the following files:
 
 #### [Web App Architecture Diagram for Udagram on AWS](Web-App-Architecture-Diagram-for-Udagram-on-AWS.jpeg)
