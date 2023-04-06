@@ -3,7 +3,7 @@ This folder contains the CloudFormation codes for the "ND9991 - C2- Infrastructu
 
 #### [Web App Architecture Diagram for Udagram on AWS]
 Infrastructure diagram and Web Architecture Diagram (Web-App-Architecture-Diagram-for-Udagram-on-AWS.jpeg)
-![Diagram of CI/CD Pipeline we will be building.](udapeople-pipeline.png)
+![Diagram of CI/CD Pipeline we will be building.](Web-App-Architecture-Diagram-for-Udagram-on-AWS.jpeg)
 
 #### [tpc-udagram-network.yml](tpc-udagram-network.yml)
 Deploys the network infrastructure.
