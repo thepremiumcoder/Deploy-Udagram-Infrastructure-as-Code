@@ -1,8 +1,9 @@
 ### Project Title - Deploy a high-availability web app using CloudFormation
 This folder contains the CloudFormation codes for the "ND9991 - C2- Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. The folder contains the following files:
 
-#### [Web App Architecture Diagram for Udagram on AWS](Web-App-Architecture-Diagram-for-Udagram-on-AWS.jpeg)
-Infrastructure diagram
+#### [Web App Architecture Diagram for Udagram on AWS]
+Infrastructure diagram and Web Architecture Diagram (Web-App-Architecture-Diagram-for-Udagram-on-AWS.jpeg)
+![Diagram of CI/CD Pipeline we will be building.](udapeople-pipeline.png)
 
 #### [tpc-udagram-network.yml](tpc-udagram-network.yml)
 Deploys the network infrastructure.
